@@ -58,12 +58,6 @@ inquirer.prompt([
     console.log(answers)
 }
 )
-//This is how we can call the questions
-// const askQuestions = () => {
-//     return inquirer.prompt(questions);
-// }
-
-// askQuestions()
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {
