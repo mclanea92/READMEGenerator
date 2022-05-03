@@ -7,14 +7,23 @@ function renderLicenseBadge(license) {
   else if (license == 'The MIT') {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
-  else (license == 'Monzilla Public License 2.0') {
+  else (license == 'Monzilla Public License 2.0'); //took the {} cause it keeps giving me an error
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
   }
-}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license == 'Apache 2.0') {
+    return `More info on this license (https://opensource.org/licenses/Apache-2.0)`;
+  }
+  else if (license == 'The MIT') {
+    return `More info on this license (https://opensource.org/licenses/MIT)`;
+  }
+  else (license == 'Monzilla Public License 2.0'); //took the {} cause it keeps giving me an error
+    return `More info on this license (https://opensource.org/licenses/MPL-2.0)`;
+  }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
