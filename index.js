@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-const makeReadMe = require('./utils/generateMarkdown');
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -57,6 +56,9 @@ return inquirer.prompt([
 ])
 .then((answers) => {
     console.log(answers)
+    const getContent = generateMarkdown(answers);
+    fs.writeFile('README.md', getContent, (err) =>
+      err ? console.error(err) : console.log('Success!'));
 }
 )}
 
@@ -68,11 +70,8 @@ return inquirer.prompt([
 // TODO: Create a function to initialize app
 function init() {
     try {
-        const data = questions();
-        const getContent = generateMarkdown(data);
-
-        fs.writeFile('README.md', getContent);
-        console.log('You successfully wrote a README.md!')
+        questions();
+    
     }
     catch(err) {
         console.log(err);
