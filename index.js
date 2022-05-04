@@ -71,7 +71,6 @@ return inquirer.prompt([
 function init() {
     try {
         questions();
-    
     }
     catch(err) {
         console.log(err);
