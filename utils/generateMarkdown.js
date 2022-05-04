@@ -36,7 +36,32 @@ function generateMarkdown(data) {
   //data should have a license link and license section 
   //render functions will be used here
   return `# ${data.title}
-
+  ${Badge(data.license)}
+  ## Description
+  ${data.description}
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [GitHub] (#github)
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## License
+  ${licenseLink(data.license)}
+  ## Contributing
+  ${data.contribution}
+  ## Tests
+  ${data.test}
+  ## Questions
+  I can be reached at ${data.email}.
+  ## GitHub
+  [GitHub Profile](https://github.com/${data.userName}/)  
 `;
 }
 
