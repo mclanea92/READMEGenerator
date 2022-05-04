@@ -68,10 +68,10 @@ return inquirer.prompt([
 // TODO: Create a function to initialize app
 function init() {
     try {
-        const answers = await questions();
-        const getContent = generateMarkdown(answers);
+        const data = questions();
+        const getContent = generateMarkdown(data);
 
-        await fs.writeFile('./dist/README.md', getContent);
+        fs.writeFile('README.md', getContent);
         console.log('You successfully wrote a README.md!')
     }
     catch(err) {
