@@ -45,3 +45,21 @@ THEN I am taken to the corresponding section of the README
 https://github.com/mclanea92/READMEGenerator
 
 ## Screenshots
+
+#### Screenshot below shows how the qustions are asked using inquire
+![screenshot of questions](./assets/questions.png)
+
+
+
+#### Screenshot below shows how the questions are used to generate a readme file
+![screenshot of generate readme](./assets/generate.png)
+
+
+
+#### Screenshot below shows the template of the readme where the users info is added to create the file
+![screenshot of readme template](./assets/readme.png)
+
+
+
+#### Screenshot below is the console with me doing a test showing it is a sucess
+![Screenshot of console](./assets/console.png)
