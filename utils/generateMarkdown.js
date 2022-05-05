@@ -53,7 +53,7 @@ function generateMarkdown(data) {
   ## License
   ${licenseLink(data.license)}
   ## Contributing
-  ${data.contribution}
+  ${data.contributing}
   ## Tests
   ${data.test}
   ## Questions
