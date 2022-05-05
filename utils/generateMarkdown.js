@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [GitHub] (#github)
+  * [GitHub](#github)
   ## Installation
   ${data.installation}
   ## Usage
