@@ -1,6 +1,7 @@
 # README Generator
 
 ## GitHub URL
+https://mclanea92.github.io/READMEGenerator/
 
 ## About Application
 
