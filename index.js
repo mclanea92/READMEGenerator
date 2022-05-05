@@ -57,7 +57,7 @@ return inquirer.prompt([
 .then((answers) => {
     console.log(answers)
     const getContent = generateMarkdown(answers);
-    fs.writeFile('README.md', getContent, (err) =>
+    fs.writeFile('projectReadMe.md', getContent, (err) =>
       err ? console.error(err) : console.log('Success!'));
 }
 )}
