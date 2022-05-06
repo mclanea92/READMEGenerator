@@ -1,6 +1,6 @@
 
 // this is where the selection of license gives you the badge at the top of the screen
-const Badge = function (license) {
+const Badge = function renderLicenseBadge (license) {
   if (license == 'Apache 2.0') {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   }
@@ -13,7 +13,7 @@ const Badge = function (license) {
 
 
 // This is where the selection of license gives you the website about it
-const licenseLink = function (license) {
+const licenseLink = function renderLicenseLink (license) {
   if (license == 'Apache 2.0') {
     return `More info on this license (https://opensource.org/licenses/Apache-2.0)`;
   }
