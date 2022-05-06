@@ -42,7 +42,7 @@ return inquirer.prompt([
         type: 'list',
         name: 'license',
         message: 'What license are you using?',
-        choices: ['Apache 2.0', 'The MIT', 'Monzilla Public License 2.0']
+        choices: ['Apache 2.0', 'The MIT', 'Mozilla Public License 2.0']
     },
     {
         type: 'input',
