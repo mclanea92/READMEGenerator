@@ -15,6 +15,7 @@ This application is used to create a high quality readme file that the user can 
 - npm
 - javascript
 - node js
+- .gitgnore
 
 ## User Story
 
