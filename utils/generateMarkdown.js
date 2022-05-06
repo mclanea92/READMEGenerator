@@ -1,28 +1,28 @@
 
 // this is where the selection of license gives you the badge at the top of the screen
-const Badge = function renderLicenseBadge(license) {
+const Badge = function (license) {
   if (license == 'Apache 2.0') {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   }
   else if (license == 'The MIT') {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
-  else (license == 'Mozilla Public License 2.0');
+  else if (license == 'Mozilla Public License 2.0'){
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-  }
+  }};
 
 
 // This is where the selection of license gives you the website about it
-const licenseLink = function renderLicenseLink(license) {
+const licenseLink = function (license) {
   if (license == 'Apache 2.0') {
     return `More info on this license (https://opensource.org/licenses/Apache-2.0)`;
   }
   else if (license == 'The MIT') {
     return `More info on this license (https://opensource.org/licenses/MIT)`;
   }
-  else (license == 'Mozilla Public License 2.0'); //took the {} cause it keeps giving me an error
+  else if (license == 'Mozilla Public License 2.0'){ //took the {} cause it keeps giving me an error
     return `More info on this license (https://opensource.org/licenses/MPL-2.0)`;
-  }
+  }};
 
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
