@@ -5,6 +5,10 @@ https://mclanea92.github.io/READMEGenerator/
 
 ## Video Tutorial of README Generator
 
+To view the video tutorial below
+
+https://drive.google.com/file/d/14w4hiSjSui7f5CQG3whizqqg9awhNnbf/view?usp=sharing
+
 
 ## About Application
 
