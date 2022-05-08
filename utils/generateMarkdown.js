@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   ## Questions
   Any Questions? You can reach me at (${data.contact}).
   ## GitHub
-  [GitHub Profile](https://github.com/${data.userName}/)  
+  ${data.github}
 `;
 }
 
