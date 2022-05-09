@@ -1,7 +1,7 @@
-# Adam McLane
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# test project
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  this is to create a readme for a user
+  test project description
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -12,16 +12,16 @@
   * [Questions](#questions)
   * [GitHub](#github)
   ## Installation
-  create a readme for a user
+  test projet installation
   ## Usage
-  to create a readme for a user
+  test project inteded use
   ## License
-  More info on this license (https://opensource.org/licenses/MPL-2.0)
+  More info on this license (https://opensource.org/licenses/MIT)
   ## Contributing
-  none at the moment
+  test project contributing
   ## Tests
-  run in node and see if it works like im doing right now!
+  test project test run
   ## Questions
-  Any Questions? You can reach me at (mclanea92@gmail.com).
+  Any Questions? You can reach me at (test project email).
   ## GitHub
-  mclanea92
+  test project github
